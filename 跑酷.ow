@@ -1422,9 +1422,7 @@
 	条件
 	{
 		事件玩家.Victory == 假;
-		事件玩家.ZoneCount == 全局.MaxZones;
-		事件玩家.HeroCount == 全局.MaxHeroes;
-		数量(已过滤的数组(事件玩家.SkillsFound, 当前数组元素)) == 全局.MaxSkillsCount;
+		事件玩家.HeroCount >= 1;
 	}
 
 	动作
